@@ -6,7 +6,7 @@ task :test do
     opts = {
         :check_html => true,
         :empty_alt_ignore => true,
-        :only_4xx => true,
+        :only_4xx => false,
         :url_ignore => [
           "#",
           /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/,
